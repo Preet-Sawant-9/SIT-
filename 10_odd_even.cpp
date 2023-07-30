@@ -1,0 +1,28 @@
+//Name:Preet Sawant PRN:22070123086
+//Aim:Program to check odd or even
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int a;
+    
+    cout<<"Enter the number :";
+    cin>>a;
+
+    if(a%2 == 0)
+    {
+        cout<<"Even";
+    }
+    else
+    {
+        cout<<"Odd";
+    }
+
+    return 0;
+}
+//Output
+/*
+Enter the number :99
+Odd
+*/
